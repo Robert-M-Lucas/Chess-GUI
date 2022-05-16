@@ -1,0 +1,23 @@
+001 - pawn - 1
+010 - horse - 2
+011 - bishop - 3
+100 - rook - 4
+101 - queen - 5
+110 - king - 6
+
+0 - white
+1 - black
+
+{
+00 - rook / king hasn't moved - 0
+01 - rook / king has moved - 1
+OR
+00 - Pawn hasn't moved - 0
+01 - Pawn has moved - 1
+11 - Pawn moved last turn - 2
+OR
+00 - No data
+}
+
+010100 - horse - black - no data
+100001 - rook - white - has moved (can't castle)
